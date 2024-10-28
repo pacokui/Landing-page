@@ -1,5 +1,16 @@
 .header {
-    font-family: "Roboto";
-    text-decoration: none;
+    display: flex;
+    background-color: #1F2937 ;
     
+}
+
+.left_text, .right-links {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #F9FAF8;
 }
