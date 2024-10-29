@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    padding: 20px 40px; 
+    padding: 20px;
     background-color: #1F2937;
     max-width: 1200px; 
     margin: 0 auto; 
@@ -23,12 +23,15 @@ body {
 .left_text {
     display: flex;
     list-style: none;
+    padding: 0px 0px 0px 0px;
 }
 
 .left_text a {
     font-size: 24px;
     font-weight: 200;
     color: #F9FAF8;
+    text-decoration: none;
+    text-align: left;
 }
 
 
@@ -40,7 +43,10 @@ body {
 .right-links a {
     font-size: 18px;
     color: #E5E7EB;
-    padding: 0 10px; 
+    padding: 10px 0px 10px 10px; 
+    text-decoration: none;
+    text-align: left;
+    gap: 5px;
 }
 
 
@@ -62,6 +68,10 @@ body {
     border-radius: 8px; 
 }
 
+.image{
+    flex: 1;
+}
+
 
 .text-content {
     flex: 1;
@@ -71,19 +81,33 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    padding: 0px 0px 10px;
 }
 
 .site-text {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 0px 0px 10px;
 }
 
 .button button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #4CAF50;
+    background-color: #3882f6;
     color: white;
     border: none;
     cursor: pointer;
     border-radius: 4px;
 }
+.button{
+    padding: 0px 0px 10px;
+}
+.second-section .img-text {
+    display: flex;
+}
+.top-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
