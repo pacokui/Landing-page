@@ -10,7 +10,33 @@
 
 a{
     text-decoration: none;
-    font-family: "Roboto";
+    font-family: Roboto;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.container {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937 ;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+.image {
+    height: auto;
+    max-width: 100%;
+    
+}
+.text-content {
+    flex: 1;
+}
+.site-text1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.site-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
