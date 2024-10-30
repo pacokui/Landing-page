@@ -109,6 +109,8 @@ body {
     padding: 20px;
     margin-bottom: 30px;
     gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .top-text{
     display: flex;
@@ -158,4 +160,51 @@ body {
 .quotee {
     text-align: end;
     font-weight: bold;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #3882f6;
+    border-radius: 4px;
+    margin: 40px;
+    gap: 50px;
+}
+.sign-up-text {
+    color: #F9FAF8;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.sign-up-text2 {
+    font-size: 12px;
+    color: #F9FAF8;
+    font-weight: 100;
+}
+
+.button_signup button{
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #1F2937;
+    height: 75px;
+
+}
+
+.footer-text {
+    color: #F9FAF8;
 }
